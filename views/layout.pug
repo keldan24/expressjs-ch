@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title My Web App
+    link(rel="stylesheet", href="/style.css")
+  body
+    nav
+      ul
+        li: a(href="/") Home
+        li: a(href="/services") Our Services
+        li: a(href="/contact") Contact Us
+      span.current-date= currentDate
+    .content
+      block content

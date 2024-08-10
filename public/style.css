@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Add styling for the date */
+nav .current-date {
+    color: #43a108;
+    margin-left: auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+.contents{
+    max-width: 600px;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
